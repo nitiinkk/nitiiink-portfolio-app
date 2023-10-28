@@ -2,7 +2,7 @@
 function App() {
   return (
     <div>
-      <p>Hello World</p>
+      <p>The Time now is: {new Date().toISOString()}</p>
     </div>
   );
 }
