@@ -1,4 +1,4 @@
-import profilePic from "./img/profile_pic.jpg";
+import profilePic from "./public/images/profile.jpg";
 import Blog from "./Blog.js";
 
 function App() {
