@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(cors());
-app.use(express.static("build"));
+// app.use(express.static("build"));
 
 app.get('/hello', (req, res) => {
     const data = {
