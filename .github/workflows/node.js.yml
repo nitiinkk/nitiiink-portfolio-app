@@ -17,8 +17,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - run: npm install
+    - run: npm install 
     - run: npm run build --if-present
+    - run : ls -al && echo "listed all"
     - name: Deploy to Vercel Action
       uses: BetaHuhn/deploy-to-vercel-action@v1
       with:
