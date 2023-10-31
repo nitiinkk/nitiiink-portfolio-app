@@ -9,7 +9,7 @@ function App() {
   const getData = async function () {
     console.log('making the api call');
     try {
-      await axios.get('https://1d38-103-161-56-71.ngrok-free.app/hello').then((res) => {
+      await axios.get('/hello').then((res) => {
         setData(res.data.message);
       });
     } catch (error) {

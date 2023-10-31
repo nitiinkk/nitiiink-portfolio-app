@@ -3,10 +3,10 @@ import cors from 'cors';
 const app = express();
 const PORT = 3002;
 
-// app.use(cors());
+app.use(cors());
+app.use(express.static("build"));
 
 app.get('/hello', (req, res) => {
-    console.log('someone htting backend');
     const data = {
         message: "This is a sample call",
         status: "success"
