@@ -11,7 +11,7 @@ function App() {
       <h1 className="user_name">Nitin Kumar</h1>
       <p> Hello, I’m <strong>Nitin</strong>. I'm a Software Engineer passionate about  <br/> building systems that scale. You can contact me on <a href="https://twitter.com/nitiiink">Twitter 🦓</a>.</p>
       </div>
-      {/* <Blog /> */}
+      <Blog />
     </div>
   );
 }

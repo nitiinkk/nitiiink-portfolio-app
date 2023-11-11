@@ -1,10 +1,14 @@
 import { remark } from 'remark';
 import remarkHtml from 'remark-html';
+import React from 'react';
+import axios from 'axios';
 
-const doc = `
-# this is a title
-Hello world
-`
+const makeData =  async () => {
+  const res = await axios.get("https://raw.githubusercontent.com/nitiiink1/nitiiink-portfolio-app/master/README.md");
+  console.log(res.data, "hello")
+  return res.data;
+}
+const doc = await makeData();
 
 const markdownToHTML = await remark()
   .use(remarkHtml)
