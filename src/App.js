@@ -1,3 +1,4 @@
+import React from "react";
 import Blog from "./Blog.js";
 import imageMeta from "./assets/image.json";
 import './styles/App.css';
