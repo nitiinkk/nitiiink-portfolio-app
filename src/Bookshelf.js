@@ -2,7 +2,7 @@ import React from "react";
 function BookShelf() {
     return (
         <>
-            <h1>This is a Bookshelf</h1>
+            <h1>This is a Bookshelf.</h1>
         </>
     )
 }
