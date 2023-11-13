@@ -1,7 +1,7 @@
 import React from "react";
 import Blog from "./Blog.js";
 import Navbar from "./Navbar.js";
-import BookShelf from "./BookShelf.js";
+import Bookshelf from "./Bookshelf.js";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home.js";
 
@@ -11,7 +11,7 @@ function App() {
             <Navbar />
             <Home/>
             <Routes>
-                <Route path="/bookshelf" element={<BookShelf />} />  
+                <Route path="/bookshelf" element={<Bookshelf />} />  
                 <Route path="/blogs" element={<Blog />} />
             </Routes>
         </>

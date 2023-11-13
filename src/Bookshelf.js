@@ -1,5 +1,5 @@
 import React from "react";
-function BookShelf() {
+function Bookshelf() {
     return (
         <>
             <h1>This is a Bookshelf.</h1>
@@ -7,4 +7,4 @@ function BookShelf() {
     )
 }
 
-export default BookShelf;
+export default Bookshelf;
