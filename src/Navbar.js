@@ -9,6 +9,7 @@ function Navbar() {
             <ul>
                 <CustomLink to="/bookshelf">BookShelf</CustomLink>
                 <CustomLink to="/blogs">Blog</CustomLink>
+                <CustomLink to="/projects">Projects</CustomLink>
             </ul>
         </nav>
     );
