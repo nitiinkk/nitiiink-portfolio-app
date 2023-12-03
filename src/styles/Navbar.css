@@ -1,46 +1,26 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-.nav {
-    background-color: #333;
-    color: white;
+.nav-elements ul {
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 2rem;
-    padding: 0 1rem;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: flex-start;
 }
 
-.site-title {
-    font-size: 2rem;
-}
-
-.nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
-
-.nav a {
-    color: inherit;
+a {
     text-decoration: none;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: .25rem;
 }
 
-.nav li.active {
-    background-color: #555 !important;
+ul li a {
+    color: #000;
 }
 
-.nav li.hover {
-    background-color: #777 !important;
+ul li a:hover {
+    color: #00a8ff;
+}
+
+ul li a.active {
+    color: red;
+}
+
+hr {
+    width: 75%;
 }
