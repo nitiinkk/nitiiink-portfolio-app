@@ -1,3 +1,6 @@
+.nav-elements {
+    padding-bottom: 2rem;
+}
 .nav-elements ul {
     display: flex;
     justify-content: space-evenly;

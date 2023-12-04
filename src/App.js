@@ -5,6 +5,7 @@ import Projects from "./Projects.js";
 import Blog from "./Blog.js";
 import {Route, Routes } from "react-router-dom";
 import Home from "./Home.js";
+import Footer from "./Footer.js";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                 <Route path="/blogs" element={<Blog />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
+            <Footer/>
         </>
     )
 }
